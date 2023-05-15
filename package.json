@@ -1,0 +1,45 @@
+{
+  "name": "key-generator",
+  "version": "1.0.0",
+  "description": "A package \b\b\b\b\b\u001b[C\u001b[C\u001b[C\u001b A package for generating keys for unique lists, database items and more.\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001bmore.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mustehssun/key-generator.git"
+  },
+  "keywords": [
+    "key",
+    "generator",
+    "key-generator",
+    "nodejs",
+    "npm",
+    "react",
+    "lists",
+    "unique",
+    "items",
+    "element",
+    "index",
+    "uuid",
+    "sequence",
+    "distinct",
+    "list",
+    "primary",
+    "identity",
+    "auto",
+    "table",
+    "database"
+  ],
+  "author": "Mustehssun Iqbal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mustehssun/key-generator/issues"
+  },
+  "homepage": "https://github.com/Mustehssun/key-generator#readme",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  }
+}
