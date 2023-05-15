@@ -35,7 +35,7 @@ describe("test serialSequenceGenerator", () => {
 
 describe("test custom sequenceGenerator", () => {
     it("should generate powers of 2", () => {
-        const generate = sequenceGenerator(elem => elem * 2, 2);
+        const generate = sequenceGenerator(prev => prev * 2, 2);
         expect(generate()).to.equal("2");
         expect(generate()).to.equal("4");
         expect(generate()).to.equal("8");
