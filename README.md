@@ -4,6 +4,7 @@ It also contains iterator and list iterator for iterating through lists periodic
 
 ## How to use
 ``` > git clone https://github.com/Mustehssun/key-generator ```
+
 Note: Currently, npm registry is giving Service unavailable error. As soon as it resolves, this will be available on npm. As of now, you can clone it and start using.
 
 ## Example usage
