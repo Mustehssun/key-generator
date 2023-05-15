@@ -2,17 +2,16 @@
 Do you have to generate unique keys for your React lists? For some other Data Structures? Try the key-generator.
 It also contains iterator and list iterator for iterating through lists periodically.
 
-## How to use
-``` > git clone https://github.com/Mustehssun/key-generator ```
-
-Note: Currently, npm registry is giving Service unavailable error. As soon as it resolves, this will be available on npm. As of now, you can clone it and start using.
+## How to install
+``` > npm install --save mustehssun-key-generator ```
 
 ## Example usage
 ```
 const generate = serialSequenceGenerator();
-generate();
-generate();
-generate();
+
+console.log(generate());
+console.log(generate());
+console.log(generate());
 ```
 ``` Output: 1 2 3 ```
 
@@ -28,17 +27,19 @@ return (
 You can also pass **initialValue** and **prefix** to the generator. Both parameters are optional.
 ```
 const generate = serialSequenceGenerator(0, "abc");
-generate();
-generate();
+
+console.log(generate());
+console.log(generate());
 ```
 ``` Output: abc1 abc2 abc3 ```
 
 ### Custom Generator
 ```
 const generate = sequenceGenerator(prev => prev * 2, 2);
-generate();
-generate();
-generate();
+
+console.log(generate());
+console.log(generate());
+console.log(generate());
 ```
 ``` Output: 2 4 8 ```
 
@@ -47,9 +48,11 @@ You can also use listIterator and circularListIterator to iterate over a list, o
 Circular list iterator is an iterator that runs through the list in a circular fashion.
 ```
 const generate = circularListIterator([1, 2]);
-generate();
-generate();
-generate();
-generate();
+console.log(generate());
+console.log(generate());
+console.log(generate());
+console.log(generate());
 ```
 ``` Output: 1 2 1 2 ```
+
+NPM URL: https://www.npmjs.com/package/mustehssun-key-generator
