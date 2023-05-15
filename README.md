@@ -22,6 +22,7 @@ return (
         <div>
             {list.map(elem => (<button key={generate()}>elem.text</button>))}
         </div>
+)
 ```
 
 You can also pass **initialValue** and **prefix** to the generator. Both parameters are optional.
