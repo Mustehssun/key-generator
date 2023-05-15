@@ -15,7 +15,7 @@ console.log(generate());
 ```
 ``` Output: 1 2 3 ```
 
-It comes in very handy when you are constructing lists in React and each item of the list needs to have a unique key - even though the uniqueness is not functional, or technical, to you. You can use generate() on each items of the list. Like this:
+It comes in very handy when you are constructing lists in React and each item of the list needs to have a unique key - even though the uniqueness is not functional, or technical, to you. You can use generate() on each item of the list. Like this:
 ```
 return (
         <div>
@@ -31,7 +31,7 @@ const generate = serialSequenceGenerator(0, "abc");
 console.log(generate());
 console.log(generate());
 ```
-``` Output: abc1 abc2 abc3 ```
+``` Output: abc0 abc1 abc2 ```
 
 ### Custom Generator
 ```
